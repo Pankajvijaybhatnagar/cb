@@ -50,7 +50,7 @@ const LoginPage = (props) => {
             const email = value.email;
 
             if (email.match(userRegex)) {
-                toast.success('You successfully Login on Manit !');
+                toast.success('You successfully Login on cbscolleges !');
                 router.push('/')
             }
         } else {

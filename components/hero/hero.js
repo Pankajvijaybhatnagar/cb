@@ -41,7 +41,7 @@ const Hero = () => {
                         <span>Have great learning</span>
                     </div>
                     <div className="sub-title">
-                    <h2>Best <span style={{ fontSize: '4.3rem' }}>CBS COLLEGE</span> For Education</h2>
+                    <h2> <span style={{ fontSize: '5.8rem' }}>CBS COLLEGE</span> For Best Education</h2>
 
                     </div>
                     <p>Your success is our success. We prioritize understanding your unique business requirements, tailoring solutions that not only meet your needs but also exceed your expectations.</p>

@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Manit - IT Solutions & Technology Next Js Template</title>
+        <title>cbscolleges</title>
       </Head>
       <Component {...pageProps} />
       <ToastContainer />

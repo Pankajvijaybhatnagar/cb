@@ -1,5 +1,5 @@
 import React from 'react'
-import abImg1 from '/public/images/about/img-1.jpg'
+import abImg1 from '/public/images/about/facilities02.jpg'
 import abImg2 from '/public/images/about/award-icon-2.svg'
 import Signeture from '/public/images/about/signeture.png'
 import Image from 'next/image'
@@ -29,7 +29,7 @@ const About = (props) => {
                     </div>
                     <div className="col-xl-6 col-12">
                         <div className="about-right-content">
-                            <h2 className="title">ABOUT COMPANY</h2>
+                            <h2 className="title">ABOUT COLLEGE</h2>
                             <h3 className="sub-title">Our approach ensures flexibility, adaptability, & rapid response.</h3>
                             <p className="text">Welcome to Manit, where innovation meets implementation, & technology
                                 transforms
