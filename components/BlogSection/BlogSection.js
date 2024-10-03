@@ -19,7 +19,7 @@ const BlogSection = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12">
-                        <SectionTitle subtitle="Recent News" title="Our Latest News" />
+                        <SectionTitle subtitle="-----------" title="Our Latest News" />
                     </div>
                 </div>
                 <div className="row">
@@ -35,9 +35,9 @@ const BlogSection = (props) => {
                                         <li>{blog.create_at}</li>
                                         <li>{blog.name}</li>
                                     </ul>
-                                    <h2><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}>{blog.title}</Link></h2>
+                                    <h2><Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/${blog.slug}`}>{blog.title}</Link></h2>
                                     <div className="link">
-                                        <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/blog-single/${blog.slug}`}><span>Continue Reading</span>
+                                        <Link onClick={ClickHandler} href={'/blog-single/[slug]'} as={`/${blog.slug}`}><span>Check Result</span>
                                             <i className="ti-arrow-right"></i></Link>
                                     </div>
                                 </div>

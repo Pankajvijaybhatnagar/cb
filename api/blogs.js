@@ -1,7 +1,7 @@
 // images
-import blogImg1 from "/public/images/blog/img-1.jpg";
-import blogImg2 from "/public/images/blog/img-2.jpg";
-import blogImg3 from "/public/images/blog/img-3.jpg";
+import blogImg1 from "/public/images/blog/result-degree.jpg";
+import blogImg2 from "/public/images/blog/result-degree.jpg";
+import blogImg3 from "/public/images/blog/result-degree.jpg";
 
 import recent1 from "/public/images/recent-posts/img-1.jpg";
 import recent2 from "/public/images/recent-posts/img-2.jpg";
@@ -17,12 +17,12 @@ import blogSingleImg3 from "/public/images/blog/3.jpg";
 const blogs = [
     {
         id: '1',
-        title: '15 Secrets Of Digital Transformation',
-        catagory: 'Technology',
-        slug: '15-Secrets-Of-Digital-Transformation',
+        title: 'Whoo Result  Out',
+        catagory: 'Btech',
+        slug: '',
         description: 'It has survived not only five but also the leap intona electronic typesetting remaining unchanged.',
         create_at: 'Sep 03, 2024',
-        name:"Anne William",
+        name:"Principal",
         screens: blogImg1,
         recent: recent1,
         blogSingleImg: blogSingleImg1,
@@ -34,12 +34,12 @@ const blogs = [
     },
     {
         id: '2',
-        title: 'Plan Your Project with Your Software',
-        catagory: 'Software',
-        slug: 'Plan-Your-Project-with-Your-Software',
+        title: 'Whoo Result  Out',
+        catagory: 'MBA',
+        slug: '',
         description: 'It has survived not only five but also the leap intona electronic typesetting remaining unchanged.',
         create_at: 'Sep 06, 2024',
-        name:"Anne William",
+        name:"Principal",
         screens: blogImg2,
         recent: recent2,
         blogSingleImg: blogSingleImg2,
@@ -52,12 +52,12 @@ const blogs = [
  
     {
         id: '3',
-        title: 'Tech Conference Events 2023/2024',
-        catagory: 'Technology',
-        slug: 'Tech-Conference-Events-2023-2024',
+        title: 'Whoo Result  Out',
+        catagory: 'BBA',
+        slug: '',
         description: 'It has survived not only five but also the leap intona electronic typesetting remaining unchanged.',
         create_at: 'Sep 06, 2024',
-        name:"Anne William",
+        name:"Principal",
         screens: blogImg3,
         recent: recent3,
         blogSingleImg: blogSingleImg3,
