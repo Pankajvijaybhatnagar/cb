@@ -8,21 +8,21 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/home',
+        link: '/',
         submenu: [
             {
                 id: 11,
-                title: 'Home style 1',
+                title: '',
                 link: '/'
             },
             {
                 id: 12,
-                title: 'Home style 2',
+                title: '',
                 link: '/home-2'
             },
             {
                 id: 13,
-                title: 'Home style 3',
+                title: '',
                 link: '/home-3'
             },
            
