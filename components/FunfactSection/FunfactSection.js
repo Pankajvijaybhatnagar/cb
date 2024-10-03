@@ -10,7 +10,7 @@ const FunFact = (props) => {
                     <div className="col col-lg-3 col-md-6 col-12">
                         <div className="item">
                             <h3><span><CountUp end={12} enableScrollSpy /></span>K+</h3>
-                            <h4>Project Completed</h4>
+                            <h4>Placements</h4>
                         </div>
                     </div>
                     <div className="col col-lg-3 col-md-6 col-12">
@@ -22,7 +22,7 @@ const FunFact = (props) => {
                     <div className="col col-lg-3 col-md-6 col-12">
                         <div className="item">
                             <h3><span><CountUp end={10} enableScrollSpy /></span>K+</h3>
-                            <h4>Happy Clients</h4>
+                            <h4>Trained teachers</h4>
                         </div>
                     </div>
                     <div className="col col-lg-3 col-md-6 col-12">
