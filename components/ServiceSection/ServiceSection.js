@@ -2,7 +2,7 @@ import React from "react";
 import Services from "../../api/Services";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import ServiceCard from "./ServiceCard"
-import ShapeOn from '/public/images/services/bg.jpg'
+import ShapeOn from '/public/images/services/bg.jpeg'
 import Image from "next/image";
 
 
@@ -17,8 +17,7 @@ const ServiceSection = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12">
-                        <SectionTitle title="Design the Concept
-                        of Your Business Idea Now" subtitle="Our Services" />
+                        <SectionTitle title="Recent Courses" subtitle="Courses" />
                     </div>
                 </div>
                 <div className="services-wrap">
