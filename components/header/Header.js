@@ -86,7 +86,7 @@ const Header = (props) => {
                             </div>
                             <div className="col-lg-3 col-md-2 col-2">
                                 <div className="header-right">
-                                    <a href="tel:+6845550102" className="call-number">
+                                    <a href="tel:8708042248" className="call-number">
                                         <div className="icon">
                                             <Image src={props.telephone} alt="" />
                                         </div>
