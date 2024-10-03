@@ -8,21 +8,21 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/home',
+        link: '/',
         submenu: [
             {
                 id: 11,
-                title: 'Home style 1',
+                title: '',
                 link: '/'
             },
             {
                 id: 12,
-                title: 'Home style 2',
+                title: '',
                 link: '/home-2'
             },
             {
                 id: 13,
-                title: 'Home style 3',
+                title: '',
                 link: '/home-3'
             },
            
@@ -32,88 +32,88 @@ const menus = [
     {
         id: 6,
         title: 'About',
-        link: '/about',
+        link: '/',
     },
     {
         id: 7,
         title: 'Services',
-        link: '/services',
+        link: '/',
         submenu: [
             {
                 id: 71,
-                title: 'Services',
-                link: '/Services',
+                title: '',
+                link: '',
             },
             {
                 id: 72,
-                title: 'Services Single',
-                link: '/service-single/Product-Design'
+                title: '',
+                link: ''
             }
         ]
     },
     {
         id: 8,
-        title: 'Portfolio',
-        link: '/project',
+        title: 'Admission',
+        link: '/',
         submenu: [
             {
                 id: 81,
-                title: 'Portfolio',
-                link: '/project',
+                title: '',
+                link: '',
             },
             {
                 id: 82,
-                title: 'Portfolio Single',
-                link: '/project-single/Product-Design'
+                title: '',
+                link: ''
             },
         ]
     },
     {
         id: 5,
-        title: 'Blog',
-        link: '/blog',
+        title: 'Facilites',
+        link: '/',
         submenu: [
             {
                 id: 51,
-                title: 'Blog',
-                link: '/blog'
+                title: '',
+                link: ''
             },
             {
                 id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left-sidebar'
+                title: '',
+                link: ''
             },
             {
                 id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
+                title: '',
+                link: ''
             },
             {
                 id: 54,
-                title: 'Blog single',
-                link: '/blog-single/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
             {
                 id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
             {
                 id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
         ]
     },
     {
         id: 3,
-        title: 'Pages',
+        title: 'Carrer',
         link: '/',
         submenu: [
             {
                 id: 31,
-                title: 'Testimonials',
-                link: '/testimonials'
+                title: '',
+                link: ''
             },
             {
                 id: 32,
@@ -137,7 +137,7 @@ const menus = [
     {
         id: 88,
         title: 'Contact',
-        link: '/contact',
+        link: '/',
     }
 
 
