@@ -41,10 +41,10 @@ const About = (props) => {
                                     exceeding expectations.</span>
                             </p>
                             <div className="ceo-content">
-                                <h2>Annette Black</h2>
-                                <span>CEO & Founder of Manit</span>
+                                <h2>Dr. Rajiv Yadav</h2>
+                                <span>Director</span>
                                 <div className="signeture">
-                                    <Image src={Signeture} alt="" />
+                                    {/* <Image src={Signeture} alt="" /> */}
                                 </div>
                             </div>
                         </div>

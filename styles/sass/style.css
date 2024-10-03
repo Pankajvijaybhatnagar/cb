@@ -3718,11 +3718,13 @@ img {
 .about-section-s2 {
   position: relative;
   z-index: 1;
+
 }
 .about-section .about-left-content,
 .about-section-s2 .about-left-content {
   position: relative;
   z-index: 1;
+  border: 2px solid red;
 }
 @media (max-width: 1199px) {
   .about-section .about-left-content,
@@ -3739,8 +3741,9 @@ img {
 .about-section .about-left-content .image,
 .about-section-s2 .about-left-content .image {
   max-width: 650px;
-  max-height: 760px;
+  max-height: 1060px;
   margin-left: -130px;
+  object-fit:cover ;
 }
 @media (max-width: 1399px) {
   .about-section .about-left-content .image,
@@ -3808,9 +3811,10 @@ img {
   margin-bottom: 0;
   color: #000B47;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 40px;
   margin: 16px 0 11px;
+  opacity: 2;
 }
 @media (max-width: 575px) {
   .about-section .about-left-content .award-content h2,
