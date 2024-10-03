@@ -15,23 +15,23 @@ import Image from 'next/image';
 const TestimonialData = [
     {
         id: "01",
-        text: "It uses a dictionary of over 200 Latin words, combined with handful the model sentence structures, to generate lorem ipsum which looks reasonable. The generated lorem ipsum is therefore always free from repetition injected humour or non-characteristic.",
-        subtitle: "Senior Developer",
-        title: "Leslie Alexander",
+        text: "CBS Colleges provided me with the best academic experience. The faculty is knowledgeable and approachable, and the campus environment fosters both personal and professional growth. I’m leaving with more than just a degree; I’m taking with me lifelong connections and valuable skills that will shape my future.",
+        title: "Preeti",
+        subtitle: "Student",
         image: image1
     },
     {
         id: "02",
-        text: "It uses a dictionary of over 200 Latin words, combined with handful the model sentence structures, to generate lorem ipsum which looks reasonable. The generated lorem ipsum is therefore always free from repetition injected humour or non-characteristic.",
-        subtitle: "CEO of BREAG",
-        title: "Eleanor Pena",
+        text: "Choosing CBS Colleges was the best decision of my life. The support from professors and the diverse extracurricular opportunities helped me grow academically and personally. I am now confidently pursuing my career thanks to the excellent education and mentorship I received here.",
+        subtitle: "Student",
+        title: "Mahak",
         image: image2
     },
     {
         id: "03",
-        text: "It uses a dictionary of over 200 Latin words, combined with handful the model sentence structures, to generate lorem ipsum which looks reasonable. The generated lorem ipsum is therefore always free from repetition injected humour or non-characteristic.",
-        subtitle: "Senior Developer",
-        title: "Jeffrey Dykes",
+        text: "At CBS Colleges, I found a community that inspired me to strive for excellence. The combination of rigorous coursework, hands-on learning, and a vibrant student life prepared me for the challenges of the real world. I couldn’t be prouder to call myself an alumnus of CBS.",
+        subtitle: "Student",
+        title: "Gurmeet ",
         image: image3
     }
 ]
@@ -76,7 +76,7 @@ const TestimonialSection = () => {
                             <p>Fringilla feugiat et imperdiet iaculis sceliue vestibulum diam eget fusce. Vitae id amet
                                 eleifend lacus ornare nisl leo dis est. </p>
                             <div className="testimonial-btn">
-                                <Link href="/about" className="theme-btn" onClick={ClickHandlar}> Get in Touch <i className="ti-arrow-right"></i></Link>
+                                <Link href="/" className="theme-btn" onClick={ClickHandlar}> Get in Touch <i className="ti-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>
