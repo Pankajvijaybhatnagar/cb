@@ -91,8 +91,8 @@ const Header = (props) => {
                                             <Image src={props.telephone} alt="" />
                                         </div>
                                         <div className="text">
-                                            <span className="title">Hotline 24/7</span>
-                                            <span className="number">+(684) 555-0102</span>
+                                            <span className="title">Available 24/7</span>
+                                            <span className="number">+(91)8708042248</span>
                                         </div>
                                     </a>
                                     <div className="login">

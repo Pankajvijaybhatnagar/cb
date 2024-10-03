@@ -16,7 +16,7 @@ import BookShape from "/public/images/slider/book.svg";
 import liderd13 from "/public/images/slider/slider1.jpg";
 import liderd14 from "/public/images/slider/slider2.jpg";
 import liderd15 from "/public/images/slider/slider3.png";
-import liderd16 from "/public/images/slider/1.png";
+// import liderd16 from "/public/images/slider/1.png";
 import Arrow from "/public/images/slider/award.svg";
 import himg1 from '/public/images/slider/img-1.jpg';
 import himg2 from '/public/images/slider/img-2.jpg';
@@ -38,7 +38,7 @@ const Hero = () => {
                         <div className="icon">
                             <Image src={BookShape} alt="Book Shape Icon" width={50} height={50} />
                         </div>
-                        <span>Create Your Dream Project With Us</span>
+                        <span>Have great learning</span>
                     </div>
                     <div className="sub-title">
                     <h2>Best <span style={{ fontSize: '4.3rem' }}>CBS COLLEGE</span> For Education</h2>
@@ -46,7 +46,7 @@ const Hero = () => {
                     </div>
                     <p>Your success is our success. We prioritize understanding your unique business requirements, tailoring solutions that not only meet your needs but also exceed your expectations.</p>
                     <div className="hero-btn">
-                        <Link href="/about" className="theme-btn" onClick={ClickHandler}>
+                        <Link href="/" className="theme-btn" onClick={ClickHandler}>
                             Go to Alumni<i className="ti-arrow-right"></i>
                         </Link>
                     </div>
@@ -75,9 +75,9 @@ const Hero = () => {
                     <SwiperSlide>
                         <Image src={liderd15} alt="Slide Image 4" width={500} height={500} />
                     </SwiperSlide>
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <Image src={liderd16} alt="Slide Image 5" width={500} height={500} />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
             </div>
 
