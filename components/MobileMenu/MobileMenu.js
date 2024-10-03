@@ -41,13 +41,13 @@ const menus = [
         submenu: [
             {
                 id: 71,
-                title: 'Services',
-                link: '/Services',
+                title: '',
+                link: '',
             },
             {
                 id: 72,
-                title: 'Services Single',
-                link: '/service-single/Product-Design'
+                title: '',
+                link: ''
             }
         ]
     },
@@ -58,13 +58,13 @@ const menus = [
         submenu: [
             {
                 id: 81,
-                title: 'Portfolio',
-                link: '/project',
+                title: '',
+                link: '',
             },
             {
                 id: 82,
-                title: 'Portfolio Single',
-                link: '/project-single/Product-Design'
+                title: '',
+                link: ''
             },
         ]
     },
@@ -75,33 +75,33 @@ const menus = [
         submenu: [
             {
                 id: 51,
-                title: 'Blog',
-                link: '/blog'
+                title: '',
+                link: ''
             },
             {
                 id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left-sidebar'
+                title: '',
+                link: ''
             },
             {
                 id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
+                title: '',
+                link: ''
             },
             {
                 id: 54,
-                title: 'Blog single',
-                link: '/blog-single/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
             {
                 id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
             {
                 id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation'
+                title: '',
+                link: ''
             },
         ]
     },
@@ -112,8 +112,8 @@ const menus = [
         submenu: [
             {
                 id: 31,
-                title: 'Testimonials',
-                link: '/testimonials'
+                title: '',
+                link: ''
             },
             {
                 id: 32,
