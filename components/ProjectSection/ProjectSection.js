@@ -34,7 +34,7 @@ const ProjectSection = (props) => {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12">
-                        <SectionTitle subtitle="Recent Case Studies" title="Our Latest Case Studies" />
+                        <SectionTitle subtitle="Student Corner" title="Facilities @ CBS Colleges" />
                     </div>
                 </div>
             </div>

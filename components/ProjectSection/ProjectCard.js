@@ -15,7 +15,7 @@ const ProjectCard = ({ Pimg, Psubtitle, Ptitle, Pslug }) => {
             <div className="content">
                 <span>{Psubtitle}</span>
                 <h2>{Ptitle}</h2>
-                <Link onClick={ClickHandlar} href={'/project-single/[slug]'} as={`/project-single/${Pslug}`} className="project-link">
+                <Link onClick={ClickHandlar} href={'/project-single/[slug]'} as={`/${Pslug}`} className="project-link">
                     <div className="icon">
                         <Image src={Picon} alt="" />
                     </div>

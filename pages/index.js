@@ -23,7 +23,7 @@ const HomePage = () => {
             <FunfactSecion hclass="funfact-section" />
             <About />
             <ServiceSection hclass={'services-section'} />
-            <VideosSection />
+            {/* <VideosSection /> */}
             <ProjectSection hclass={"project-section"} />
             <TestimonialSection />
             <CtaSection />
