@@ -26,8 +26,8 @@ const Hero3 = () => {
                             <span>Create Your Dream Project With Us</span>
                         </div>
                         <div className="sub-title " >
-                            <h2>Best It <span>Solution</span> For
-                                Your Business</h2>
+                            <h2>Best <span>CBS COLLEGE</span> For
+                                Education</h2>
                         </div>
                         <p >Your success is our success. We prioritize
                             understanding your unique business requirements,

@@ -1,33 +1,33 @@
 import React from "react";
-import Link from 'next/link'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import CountUp from 'react-countup';
-import LikeShape from "/public/images/slider/like.svg"
-import liderd12 from "/public/images/slider/1.png"
-import Arrow from "/public/images/slider/award.svg"
-
-
-import himg1 from '/public/images/slider/img-1.jpg'
-import himg2 from '/public/images/slider/img-2.jpg'
-import himg3 from '/public/images/slider/img-3.jpg'
-import himg4 from '/public/images/slider/img-4.jpg'
-import himg5 from '/public/images/slider/img-2.jpg'
 import Image from "next/image";
+
+// Swiper core components
+import { Pagination, Navigation, Autoplay } from 'swiper';
+
+// Importing images
+import BookShape from "/public/images/slider/book.svg";
+// import liderd11 from "/public/images/slider/1.p";
+import liderd13 from "/public/images/slider/slider1.jpg";
+import liderd14 from "/public/images/slider/1.png";
+import liderd15 from "/public/images/slider/1.png";
+import liderd16 from "/public/images/slider/1.png";
+import Arrow from "/public/images/slider/award.svg";
+import himg1 from '/public/images/slider/img-1.jpg';
+import himg2 from '/public/images/slider/img-2.jpg';
+import himg3 from '/public/images/slider/img-3.jpg';
+import himg4 from '/public/images/slider/img-4.jpg';
+import himg5 from '/public/images/slider/img-2.jpg';
 
 const Hero = () => {
 
-
     const ClickHandler = () => {
         window.scrollTo(10, 0);
-    }
-
-    const Seting = {
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        arrows: false,
     }
 
     return (
@@ -36,59 +36,62 @@ const Hero = () => {
                 <div className="content">
                     <div className="title">
                         <div className="icon">
-                            <Image src={LikeShape} alt="" />
+                            <Image src={BookShape} alt="Book Shape Icon" width={50} height={50} />
                         </div>
                         <span>Create Your Dream Project With Us</span>
                     </div>
                     <div className="sub-title">
-                        <h2>Best It <span>Solution</span> For
-                            Your Business</h2>
+                    <h2>Best <span style={{ fontSize: '4.3rem' }}>CBS COLLEGE</span> For Education</h2>
+
                     </div>
-                    <p>Your success is our success. We prioritize
-                        understanding your unique business requirements,
-                        tailoring solutions that not only meet your needs but also exceed your expectations.</p>
+                    <p>Your success is our success. We prioritize understanding your unique business requirements, tailoring solutions that not only meet your needs but also exceed your expectations.</p>
                     <div className="hero-btn">
-                        <Link href="/about" className="theme-btn" onClick={ClickHandler}> Get Started<i className="ti-arrow-right"></i></Link>
+                        <Link href="/about" className="theme-btn" onClick={ClickHandler}>
+                            Go to Alumni<i className="ti-arrow-right"></i>
+                        </Link>
                     </div>
                 </div>
             </div>
+
+            {/* Swiper Slider */}
             <div className="image">
-                <Image src={liderd12} alt="" />
-                <div className="bg-shape">
-                    <svg width="652" height="668" viewBox="0 0 652 668" fill="none">
-                        <path
-                            d="M0 367.646C0 360.448 3.86838 353.805 10.129 350.252L622.129 2.95135C635.462 -4.6148 652 5.01565 652 20.3457V648C652 659.046 643.046 668 632 668H20C8.95432 668 0 659.046 0 648V367.646Z" />
-                    </svg>
-                </div>
+                <Swiper
+                    modules={[Pagination, Navigation, Autoplay]}
+                    spaceBetween={30}
+                    slidesPerView={1}
+                    navigation
+                    pagination={{ clickable: true }}
+                    autoplay={{ delay: 3000 }}
+                >
+                    {/* <SwiperSlide>
+                        <Image src={l} alt="Slide Image 1" width={500} height={500} />
+                    </SwiperSlide> */}
+                    <SwiperSlide>
+                        <Image src={liderd13} alt="Slide Image 2" width={500} height={500} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={liderd14} alt="Slide Image 3" width={500} height={500} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={liderd15} alt="Slide Image 4" width={500} height={500} />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Image src={liderd16} alt="Slide Image 5" width={500} height={500} />
+                    </SwiperSlide>
+                </Swiper>
             </div>
-            <div className="hero-slider">
-                <Slider {...Seting}>
-                    <div className="item" >
-                        <Image src={himg1} alt="" />
-                    </div>
-                    <div className="item" >
-                        <Image src={himg2} alt="" />
-                    </div>
-                    <div className="item" >
-                        <Image src={himg3} alt="" />
-                    </div>
-                    <div className="item" >
-                        <Image src={himg4} alt="" />
-                    </div>
-                    <div className="item" >
-                        <Image src={himg5} alt="" />
-                    </div>
-                </Slider>
-            </div>
+
             <div className="award">
                 <div className="icon">
-                    <Image src={Arrow} alt="" />
+                    <Image src={Arrow} alt="Award Icon" width={50} height={50} />
                 </div>
                 <div className="text">
                     <h3><span><CountUp enableScrollSpy end={25} /></span>+</h3>
                     <span>Years Of Experience</span>
                 </div>
             </div>
+
+            {/* Additional Shapes */}
             <div className="shape-1">
                 <svg width="362" height="481" viewBox="0 0 362 481" fill="none">
                     <circle cx="121.5" cy="240.5" r="240.5" fill="url(#paint_505)" />
@@ -124,16 +127,9 @@ const Hero = () => {
                         </radialGradient>
                     </defs>
                 </svg>
-
             </div>
         </section>
-    )
+    );
 }
 
 export default Hero;
-
-
-
-
-
-

@@ -30,11 +30,11 @@ const Header = (props) => {
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler}  href="/">Home</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler}  href="/">Home style 1</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home-2">Home style 2</Link></li>
                                                 <li><Link onClick={ClickHandler} href="/home-3">Home style 3</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li><Link onClick={ClickHandler} href="/about">About</Link></li>
                                         <li className="menu-item-has-children">
