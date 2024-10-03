@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import logo from '/public/images/logo-2.svg'
+import logo from '/public/images/peer_logo_white.svg'
 import Shape1 from '/public/images/mail.svg'
 import News1 from '/public/images/phone.svg'
 import News2 from '/public/images/map.svg'
@@ -23,7 +23,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={logo} alt="blog" />
+                                    <Image src={logo} alt="Logo" />
                                 </div>
                                 <p>Mattis inelit neque quis donec eleifnd amet. Amet sed et cursus eu euismod.
                                     Egestas
@@ -46,10 +46,10 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/">Home</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/services">Services</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/blog">Latest News</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/project">Portfolio</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Acadmics</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Admission</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Latest News</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/">Carrer</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,11 +59,11 @@ const Footer = (props) => {
                                     <h3>Useful Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} href="/project">Projects</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/login">Sign Up</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/testimonials">Testimonials</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/faq">Faq</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/contact">contact</Link></li>
+                                    <li><Link onClick={ClickHandler} href="#">Admission</Link></li>
+                                    <li><Link onClick={ClickHandler} href="#">Courses</Link></li>
+                                    <li><Link onClick={ClickHandler} href="#">Result</Link></li>
+                                    <li><Link onClick={ClickHandler} href="#">Faq</Link></li>
+                                    <li><Link onClick={ClickHandler} href="#">contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,12 +74,12 @@ const Footer = (props) => {
                                     <h3>Contact Us</h3>
                                 </div>
                                 <ul>
-                                    <li><Image src={Shape1} alt="" /><span>manit@gmail.com</span>
+                                    <li><Image src={Shape1} alt="" /><span>ceo@cbscolleges.com</span>
                                     </li>
-                                    <li><Image src={News1} alt="" /> <span>(704) 555-0127
-                                        <br />(208) 555-0112</span></li>
-                                    <li><Image src={News2} alt="" /><span>4517 Washington Ave. <br />
-                                        Manchter, Kentucky 495</span></li>
+                                    <li><Image src={News1} alt="" /> <span>+91-8053111222-666
+                                        </span></li>
+                                    <li><Image src={News2} alt="" /><span>8 KM. Mile Stone, Jhajjar-Kosli Raod, <br />
+                                    Fatehpuri , Jhajjar Delhi-NCR (Haryana)</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,14 +90,14 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row g-0">
                         <div className="col col-lg-6 col-12">
-                            <p className="copyright"> Copyright &copy; 2024 Manit by <Link onClick={ClickHandler} href="/">wpOceans</Link>. All
+                            <p className="copyright"> Copyright &copy; 2024 Manit by <Link onClick={ClickHandler} href="/">BigByte Innovations Pvt. Ltd</Link>. All
                                 Rights Reserved.</p>
                         </div>
                         <div className="col col-lg-6 col-12">
                             <ul>
-                                <li><Link onClick={ClickHandler} href="/privacy">privacy & Policy</Link></li>
-                                <li><Link onClick={ClickHandler} href="/terms">Terms</Link></li>
-                                <li><Link onClick={ClickHandler} href="/about">About us</Link></li>
+                                <li><Link onClick={ClickHandler} href="/">privacy & Policy</Link></li>
+                                <li><Link onClick={ClickHandler} href="/">Terms</Link></li>
+                                <li><Link onClick={ClickHandler} href="/">About us</Link></li>
                             </ul>
 
                         </div>
