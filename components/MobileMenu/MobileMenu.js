@@ -32,12 +32,12 @@ const menus = [
     {
         id: 6,
         title: 'About',
-        link: '/about',
+        link: '/',
     },
     {
         id: 7,
         title: 'Services',
-        link: '/services',
+        link: '/',
         submenu: [
             {
                 id: 71,
@@ -53,8 +53,8 @@ const menus = [
     },
     {
         id: 8,
-        title: 'Portfolio',
-        link: '/project',
+        title: 'Admission',
+        link: '/',
         submenu: [
             {
                 id: 81,
@@ -70,8 +70,8 @@ const menus = [
     },
     {
         id: 5,
-        title: 'Blog',
-        link: '/blog',
+        title: 'Facilites',
+        link: '/',
         submenu: [
             {
                 id: 51,
@@ -107,7 +107,7 @@ const menus = [
     },
     {
         id: 3,
-        title: 'Pages',
+        title: 'Carrer',
         link: '/',
         submenu: [
             {
@@ -137,7 +137,7 @@ const menus = [
     {
         id: 88,
         title: 'Contact',
-        link: '/contact',
+        link: '/',
     }
 
 
