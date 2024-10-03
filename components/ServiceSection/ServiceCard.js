@@ -22,7 +22,7 @@ const ServiceCard = ({ img, title, sdescription, slug }) => {
                 <h2>{title}</h2>
                 <span>{sdescription}</span>
                 <h3>
-                    <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`/service-single/${slug}`} >
+                    <Link onClick={ClickHandler} href={'/service-single/[slug]'} as={`${slug}`} >
                         <span>Learn More</span>
                         <i className="ti-arrow-right"></i>
                     </Link>
