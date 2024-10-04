@@ -85,6 +85,7 @@ const Hero = () => {
           navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
+          
         >
           {/* <SwiperSlide>
                         <Image src={l} alt="Slide Image 1" width={500} height={500} />
@@ -93,7 +94,7 @@ const Hero = () => {
             <Image
               src={liderd13}
               alt="Slide Image 2"
-              width={500}
+              width={300}
               height={500}
             />
           </SwiperSlide>
@@ -101,7 +102,7 @@ const Hero = () => {
             <Image
               src={liderd14}
               alt="Slide Image 3"
-              width={500}
+              width={300}
               height={500}
             />
           </SwiperSlide>
@@ -109,7 +110,7 @@ const Hero = () => {
             <Image
               src={liderd15}
               alt="Slide Image 4"
-              width={500}
+              width={300}
               height={500}
             />
           </SwiperSlide>
