@@ -41,7 +41,7 @@ const Hero = () => {
                         <span>Have great learning</span>
                     </div>
                     <div className="sub-title">
-                    <h2> <span style={{ fontSize: '5.8rem' }}>CBS COLLEGE</span> For Best Education</h2>
+                    <h2> <span >CBS COLLEGE</span> <br/> For Best Education</h2>
 
                     </div>
                     <p>Your success is our success. We prioritize understanding your unique business requirements, tailoring solutions that not only meet your needs but also exceed your expectations.</p>
@@ -54,7 +54,10 @@ const Hero = () => {
             </div>
 
             {/* Swiper Slider */}
-            <div className="image">
+            <div style={{
+                
+                
+            }} className="image">
                 <Swiper
                     modules={[Pagination, Navigation, Autoplay]}
                     spaceBetween={30}

@@ -2761,7 +2761,7 @@ img {
 @media (max-width: 575px) {
   .static-hero .content p,
   .hero-slider-section .content p {
-    font-size: 17px;
+    font-size: 9px;
   }
 }
 .static-hero .content .hero-btn,
