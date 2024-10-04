@@ -2729,6 +2729,7 @@ img {
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 @media (max-width: 1199px) {
   .static-hero .content .sub-title h2,
   .hero-slider-section .content .sub-title h2 {
