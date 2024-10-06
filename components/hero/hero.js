@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
           <div className="sub-title">
             <h2>
-              <span>CBS COLLEGE</span>
+              <span>CBS INSTITUTIONS</span>
                <br /> 
              
               <Typewriter
