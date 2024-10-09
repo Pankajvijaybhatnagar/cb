@@ -112,20 +112,20 @@ const Header = (props) => {
                       </Link>
                       <ul className="sub-menu text-xs">
                         <li>
-                          <Link onClick={ClickHandler} href="/blog">
+                          <Link onClick={ClickHandler} href="/">
                             Class Rooms & campus
                           </Link>
                         </li>
                         <li>
                           <Link
                             onClick={ClickHandler}
-                            href="/blog-left-sidebar"
+                            href="/"
                           >
                             Library
                           </Link>
                         </li>
                         <li>
-                          <Link onClick={ClickHandler} href="/blog-fullwidth">
+                          <Link onClick={ClickHandler} href="/">
                             Computer Center
                           </Link>
                         </li>
