@@ -1511,6 +1511,7 @@ img {
     display: block;
     height: 2px;
     margin-bottom: 5px;
+    display: flex;
   }
   .wpo-site-header .navbar-header button span:last-child {
     margin: 0;
