@@ -42,22 +42,32 @@ const Header = (props) => {
                       <ul className="sub-menu text-xs">
                         <li>
                           <Link onClick={ClickHandler} href="/">
-                            Services
+                            Vision & Mission
                           </Link>
                         </li>
                         <li>
                           <Link onClick={ClickHandler} href="/">
-                            Services Single
+                           President's Message
                           </Link>
                         </li>
                         <li>
                           <Link onClick={ClickHandler} href="/">
-                            Services Single
+                           Director's Message
                           </Link>
                         </li>
                         <li>
                           <Link onClick={ClickHandler} href="/">
-                            Services Single
+                            Director General's Message
+                          </Link>
+                        </li>
+                        <li>
+                          <Link onClick={ClickHandler} href="/">
+                         Governing Body of Institution
+                          </Link>
+                        </li>
+                        <li>
+                          <Link onClick={ClickHandler} href="/">
+                           Grievance Committee
                           </Link>
                         </li>
                       </ul>
