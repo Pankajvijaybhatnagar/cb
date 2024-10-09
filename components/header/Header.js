@@ -29,7 +29,7 @@ const Header = (props) => {
                   id="navbar"
                   className="collapse navbar-collapse navigation-holder"
                 >
-                  <ul className="nav navbar-nav mb-2 mb-lg-0 text-sm">
+                  <ul className="nav navbar-nav mb-2 mb-lg-0 text-xs">
                     <li>
                       <Link onClick={ClickHandler} href="/" className="text-xs">
                         Home
@@ -113,7 +113,7 @@ const Header = (props) => {
                       <ul className="sub-menu text-xs">
                         <li>
                           <Link onClick={ClickHandler} href="/blog">
-                            Blog right sidebar
+                            Class Rooms & campus
                           </Link>
                         </li>
                         <li>
@@ -121,17 +121,17 @@ const Header = (props) => {
                             onClick={ClickHandler}
                             href="/blog-left-sidebar"
                           >
-                            Blog left sidebar
+                            Library
                           </Link>
                         </li>
                         <li>
                           <Link onClick={ClickHandler} href="/blog-fullwidth">
-                            Blog fullwidth
+                            Computer Center
                           </Link>
                         </li>
                         <li className="menu-item-has-children">
                           <Link onClick={ClickHandler} href="#" className="text-xs">
-                            Blog details
+                            All Facilities
                           </Link>
                           <ul className="sub-menu text-xs">
                             <li>
@@ -139,7 +139,7 @@ const Header = (props) => {
                                 onClick={ClickHandler}
                                 href="/blog-single/15-Secrets-Of-Digital-Transformation"
                               >
-                                Blog details right sidebar
+                                Laboratories & Workshop
                               </Link>
                             </li>
                             <li>
@@ -147,7 +147,7 @@ const Header = (props) => {
                                 onClick={ClickHandler}
                                 href="/blog-single-left-sidebar/15-Secrets-Of-Digital-Transformation"
                               >
-                                Blog details left sidebar
+                              Canteen & Cafeteria
                               </Link>
                             </li>
                             <li>
@@ -155,7 +155,15 @@ const Header = (props) => {
                                 onClick={ClickHandler}
                                 href="/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation"
                               >
-                                Blog details fullwidth
+                              Dispensary/Health Zone
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                onClick={ClickHandler}
+                                href="/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation"
+                              >
+                           Hostels
                               </Link>
                             </li>
                           </ul>
@@ -194,10 +202,11 @@ const Header = (props) => {
                         Contact Us
                       </Link>
                     </li>
+                    
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-2 col-2">
+              <div className="col-lg-3 col-md-2 col-2 text-xs">
                 <div className="header-right">
                   <a href="tel:8708042248" className="call-number text-xs">
                     <div className="icon">
