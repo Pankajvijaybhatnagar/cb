@@ -137,7 +137,7 @@ const Header = (props) => {
                             <li>
                               <Link
                                 onClick={ClickHandler}
-                                href="/blog-single/15-Secrets-Of-Digital-Transformation"
+                                href="/"
                               >
                                 Laboratories & Workshop
                               </Link>
@@ -145,7 +145,7 @@ const Header = (props) => {
                             <li>
                               <Link
                                 onClick={ClickHandler}
-                                href="/blog-single-left-sidebar/15-Secrets-Of-Digital-Transformation"
+                                href="/"
                               >
                               Canteen & Cafeteria
                               </Link>
@@ -153,7 +153,7 @@ const Header = (props) => {
                             <li>
                               <Link
                                 onClick={ClickHandler}
-                                href="/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation"
+                                href="/"
                               >
                               Dispensary/Health Zone
                               </Link>
@@ -161,7 +161,7 @@ const Header = (props) => {
                             <li>
                               <Link
                                 onClick={ClickHandler}
-                                href="/blog-single-fullwidth/15-Secrets-Of-Digital-Transformation"
+                                href="/"
                               >
                            Hostels
                               </Link>
